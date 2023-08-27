@@ -1,12 +1,13 @@
 {
   "name": "package-a",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "node ./scripts/release"
+    "release": "node ./scripts/release",
+    "build": "echo 'hello 测试'"
   },
   "keywords": [],
   "author": "",
